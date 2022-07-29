@@ -1,0 +1,63 @@
+.button_container{
+  margin-bottom: 2rem;
+}
+
+.toggle_button {
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    width: 70px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+
+@media only screen and (min-width: 600px)  {
+  .button_container{
+    margin-bottom: 0rem;
+  }
+}
+  
+  .toggle_button:focus {
+    outline: none;
+  }
+  
+  .toggle_button__line {
+    width: 35px;
+    height: 1px;
+    transition: all 0.5s ease-in-out;
+    background-color: rgb(0, 100, 52);
+  }
+  
+  #line1 {
+    background-color: rgb(0, 100, 52);
+  }
+  
+  #line2 {
+    background-color: rgb(0, 100, 52);
+  }
+  
+  #line3 {
+    background-color: rgb(0, 100, 52);
+  }
+  
+  .open #line1 {
+    transform: rotate(-45deg);
+    background-color: #43035a;
+  } 
+  
+   .open #line2 {
+    width: 0;
+  } 
+  .open #line3 {
+    transform: translateY(-19px) rotate(45deg);
+    background-color: #43035a;
+  } 
+/* Small screen max-width 600px */
+   @media only screen and (max-width: 600px) {
+    .toggle-button {
+      margin-right: 1rem;
+    }
+  }

@@ -1,0 +1,54 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  line-height: 1.6;
+  font-size: 18px;
+  background-color: rgb(253, 249, 237);
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color:  rgb(0, 100, 52);
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  color: rgb(55, 55, 112);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button{
+    border: 1px solidrgb(0, 100, 52);
+    border-style: solid;
+    background-color: rgb(253, 249, 237);
+    color: rgb(0, 100, 52);
+    padding: 0.5rem 1.5rem;
+    font-family: 'Quicksand', sans-serif;
+    border: 1px solid rgb(0, 100, 52);
+}
+
+button:hover {
+  background-color:rgb(6, 78, 37);
+  color:rgb(253, 249, 237);
+} 
+
+svg{
+  width: 100%;
+}
+
+h1{
+  color: black;
+}
+
+
+

@@ -1,0 +1,54 @@
+.container{
+    padding:2rem 3rem;
+    border-top: 1px solid rgb(0, 100, 52); 
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+@media only screen and (min-width: 600px)  {
+    .wrapper{
+    flex-direction: row;
+    }
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.right{
+    padding:3rem 3rem ;
+    font-family: 'Quicksand', sans-serif;    font-size: 1.2rem;
+    line-height: 1.8;
+    width: 100%;
+}
+
+
+
+.container h1{
+    color:  rgb(0, 100, 52);    
+    font-size: 3rem;
+    font-family: 'GirlasFree', sans-serif;
+}
+
+.services {
+    margin: 5rem;
+    border: 1px solid rgb(0, 100, 52); 
+    padding: 3.5rem;
+}
+
+.services_list{
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'RomanceLogic', sans-serif;
+}
+

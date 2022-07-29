@@ -1,0 +1,99 @@
+.footer_container{
+    width: 100%;
+    padding: 3rem;
+    background-color: rgb(6, 78, 37);
+    color: beige;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+/* COLUMN FLEX CONTAINER */
+.footer_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 600px)  {
+    .footer_wrapper{
+    flex-direction: row;
+    justify-content: space-between;
+    }
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 600px)  {
+    .left{
+     flex-direction: row; 
+       
+    } 
+}
+/* INNER BOXES - LEFT */
+.left > *  {
+    padding: .5rem;
+    text-transform: uppercase;
+    font-size: .65rem;
+}
+
+/* INNER BOXES - LEFT */
+.right{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom:1rem;
+}
+
+@media only screen and (min-width: 600px)  {
+    .right{
+     flex-direction: row; 
+       
+    } 
+}
+
+/* INNER BOXES - LEFT */
+.right > *  {
+    padding: .5rem;
+}
+
+.footer_title{
+    font-size: 2rem;
+    font-family: 'Aloevera', sans-serif;
+}
+
+.footer_container a {
+    text-decoration: none;
+    color:beige;
+   
+}
+
+.footer_container a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+.link{
+    padding: 2rem;
+}
+
+
+.copyright{
+    text-align: center;
+    font-size: .8rem;
+}
+
+
+.copyright a{
+    text-transform: capitalize;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+
