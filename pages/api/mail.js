@@ -1,4 +1,4 @@
-const mail = require("@sendgrid.mail");
+const mail = require("dotenv").config(sendgrid);
 
 mail.setAPIKey(process.env.SENDGRID_API_KEY);
 
@@ -18,8 +18,8 @@ export default function handler(req, res) {
   `;
 
   const data = {
-    to: "hitherejoann@gmail.com",
-    from: "",
+    to: "emabarnes@gmail.com",
+    from: "hi@emabarnes.com",
     subject: "New web form message",
     text: message,
     html: message.replace(/\r\n/g, "<br>"),
