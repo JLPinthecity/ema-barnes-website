@@ -78,8 +78,11 @@ const About = () => {
             structural or substantive editing as the bigger picture edit should
             lead to a lot of revision that will render these services mute, but
             I do occasionally offer these as separate services. If you&apos;re
-            interested in my services, please fill out this form [LINK TK] and I
-            will get back to you shortly.
+            interested in my services, please fill out
+            <Link href="/contact" className={styles.link}>
+              <a target="_blank"> this form </a>
+            </Link>
+            and I will get back to you shortly.
           </p>
         </div>
       </div>

@@ -17,7 +17,7 @@ const Footer = () => {
           </Link>
 
           <Link href="/contact" className={styles.link}>
-            <a>Submit Work</a>
+            <a>Request a quote</a>
           </Link>
 
           <Link href="https://reedsy.com/ema-barnes" className={styles.link}>
@@ -50,7 +50,7 @@ const Footer = () => {
       <div className={styles.copyright}>
         © 2022 All Rights Reserved.{" "}
         <Link href="https://joannpan.dev/">
-          <a>Site credits.</a>
+          <a target="_blank">Site credits.</a>
         </Link>
       </div>
     </div>

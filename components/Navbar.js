@@ -14,7 +14,7 @@ const Navbar = () => {
         </Link>
 
         <Link href="/contact">
-          <a>Submit Work</a>
+          <a>Request a Quote</a>
         </Link>
       </div>
     </div>
