@@ -17,11 +17,10 @@
 
 .wrapper{
     font-family: RomanceLogic;
-    font-size: 3rem;
+    font-size: 1.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 3rem;
     height: 100%;
     color:  rgb(0, 100, 52);
     background-color: rgb(253, 249, 237);
@@ -32,16 +31,21 @@
     display: flex;
     justify-content: flex-end;
     padding-bottom: 4rem;
-
 }
 
 .openSidebar svg{
     font-size: 3rem;
     cursor: pointer;
+    padding: 1rem;
 }
 
 .openSidebar a{
-padding: 1rem;
+padding: .5rem;
 }
 
+@media only screen and (min-width: 900px)  {
+    .wrapper{
+        font-size: 3rem;
+    }
+} 
 
