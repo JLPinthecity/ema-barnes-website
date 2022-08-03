@@ -4,65 +4,53 @@
 
 .header_wrapper{
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
     justify-content: space-between;
     align-items: center;
-}
-
+    padding: 1rem;
+} 
 
 @media only screen and (min-width: 900px)  {
     .header_wrapper{
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
     }
-}
+} 
 
 .title{
     font-family: RomanceLogic;
-    font-size: 4rem;
-    order: 1;
-    padding: 1.5rem;
+    font-size: 3rem;
+} 
 
-}
-
-/* @media only screen and (max-width: 900px)  {
-    .title{
-    padding-bottom: 1rem;
-    }
-} */
-
-/* MENU */
-.header_wrapper section:first-child{
+/* BURGER */
+ .header_wrapper section:first-child{
     order: 2;
-    visibility: visible;
-}
+} 
 
 /* CONTACT BUTTON */
 .header_wrapper section:last-child{
-    order: 3;
-    visibility: hidden;
-}
+  visibility: hidden;
+} 
+
 
 @media only screen and (min-width: 900px)  {
+    .title {
+        font-size: 4rem;
+    }
     .header_wrapper div:first-child{
         order: 1;
         visibility: hidden;
-    
-       
     }
 
     .header_wrapper section:last-child{
         order: 3;
         visibility: visible;
-        padding: 1rem;
+        padding-right: 1rem;
     }
 
     .title{
-        font-family: RomanceLogic;
-        font-size: 4rem;
         order: 2;
-
     }
     
-}
+}  
