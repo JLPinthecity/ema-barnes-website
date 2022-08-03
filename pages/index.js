@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { motion } from "framer-motion";
-import lake from "../public/lake.jpg";
+// import lake from "../public/lake.jpg";
 
 const Home = () => {
   // console.log(toggle);
@@ -33,11 +33,11 @@ const Home = () => {
           whileHover={{ scale: 1.025 }}
           transition={{ ease: easing, duration: 0.5 }}
         >
-          <Image
+          {/* <Image
             src={lake}
             alt="Picture of ferns in front of fog"
             layout="intrinsic"
-          />
+          /> */}
         </motion.div>
       </div>
     </motion.div>
