@@ -33,11 +33,10 @@ const Home = () => {
           whileHover={{ scale: 1.025 }}
           transition={{ ease: easing, duration: 0.5 }}
         >
-          {/* <Image
-            src={lake}
-            alt="Picture of ferns in front of fog"
-            layout="intrinsic"
-          /> */}
+          <Image
+            src={ferns}
+            alt="Picture of Ema Barnes, freelance book editor"
+          />
         </motion.div>
       </div>
     </motion.div>
