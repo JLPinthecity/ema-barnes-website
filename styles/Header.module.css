@@ -11,13 +11,6 @@
     width: 100%;
 } 
 
-
-@media only screen and (min-width: 500px)  {
-    .header_wrapper{
-        font-size: 3rem;
-    }
-} 
-
 @media only screen and (min-width: 900px)  {
     .header_wrapper{
         flex-direction: row;
@@ -28,7 +21,13 @@
 
 .title{
     font-family: RomanceLogic;
-    font-size: 2rem;
+    font-size: 2.5rem;
+} 
+
+@media only screen and (min-width: 500px)  {
+    .title{
+        font-size: 3.5rem;
+    }
 } 
 
 /* BURGER */
