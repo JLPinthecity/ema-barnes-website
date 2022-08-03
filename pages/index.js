@@ -1,7 +1,7 @@
-import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { motion } from "framer-motion";
-import ferns from "../public/ferns.jpg";
+import Image from "next/image";
+import test from "../public/test-image.jpg";
 
 const Home = () => {
   // console.log(toggle);
@@ -34,7 +34,7 @@ const Home = () => {
           transition={{ ease: easing, duration: 0.5 }}
         >
           <Image
-            src={ferns}
+            src={test}
             alt="Picture of Ema Barnes, freelance book editor"
           />
         </motion.div>
