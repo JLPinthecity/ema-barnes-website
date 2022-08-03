@@ -1,6 +1,5 @@
 import styles from "../styles/Contact.module.css";
 import { motion } from "framer-motion";
-import { easing, fadeIn } from "../pages/index";
 
 const Contact = () => {
   async function handleSubmit(event) {

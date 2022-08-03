@@ -13,7 +13,7 @@
     color:  rgb(0, 100, 52);    
     font-size: 3rem;
     font-family: 'GirlasFree', sans-serif;
-    text-align: left;
+    text-align: center;
 }
 
 .wrapper{
@@ -29,7 +29,7 @@
 
 .container input {
    padding: .5rem;
-   width: 20rem;
+   width: 25rem;
 }
 
 .container textarea{

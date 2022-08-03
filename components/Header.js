@@ -16,7 +16,14 @@ const Header = () => {
         </section>
 
         <section>
-          <button className="contact_button">Contact</button>
+          <Link
+            href="mailto: ema@emabarnes.com"
+            className={styles.get_in_touch}
+          >
+            <a>
+              <button className="contact_button">Contact</button>
+            </a>
+          </Link>
         </section>
       </div>
     </div>

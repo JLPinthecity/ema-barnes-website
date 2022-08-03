@@ -38,7 +38,7 @@ const Footer = () => {
             <p></p>
           </div>
           <Link
-            href="mailto: hitherejoann@gmail.com"
+            href="mailto: ema@emabarnes.com"
             className={styles.get_in_touch}
           >
             <a>
