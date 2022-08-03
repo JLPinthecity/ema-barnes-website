@@ -17,7 +17,7 @@ const Layout = (props) => {
   return (
     <div>
       <Header toggle={toggleSidebar} />
-      <Sidebar show={showSidebar} />
+      <Sidebar show={showSidebar} toggle={toggleSidebar} />
       <Navbar />
       <main className={styles.main_wrapper}>{props.children}</main>
       <Footer />
