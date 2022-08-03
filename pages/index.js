@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { motion } from "framer-motion";
-// import lake from "../public/lake.jpg";
+import ferns from "../public/ferns.jpg";
 
 const Home = () => {
   // console.log(toggle);
