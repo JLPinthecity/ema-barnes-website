@@ -1,23 +1,13 @@
-.button_container{
-  margin-bottom: 2rem;
-}
 
 .toggle_button {
     display: flex;
     flex-direction: column;
     height: 30px;
-    width: 70px;
     background: transparent;
     border: none;
     cursor: pointer;
     box-sizing: border-box;
     justify-content: space-around;
-}
-
-@media only screen and (min-width: 900px)  {
-  .button_container{
-    margin-bottom: 0rem;
-  }
 }
   
   .toggle_button:focus {
@@ -55,9 +45,3 @@
     transform: translateY(-19px) rotate(45deg);
     background-color: #43035a;
   } 
-/* Small screen max-width 600px */
-   @media only screen and (max-width: 900px) {
-    .toggle-button {
-      margin-right: 1rem;
-    }
-  }

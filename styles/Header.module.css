@@ -4,11 +4,9 @@
 
 .header_wrapper{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem;
-    align-items: flex-start;
 }
 
 
@@ -20,20 +18,19 @@
     }
 }
 
-
 .title{
     font-family: RomanceLogic;
     font-size: 4rem;
     order: 1;
+    padding: 1.5rem;
+
 }
 
-
-@media only screen and (max-width: 900px)  {
+/* @media only screen and (max-width: 900px)  {
     .title{
     padding-bottom: 1rem;
     }
-}
-
+} */
 
 /* MENU */
 .header_wrapper section:first-child{
@@ -51,17 +48,21 @@
     .header_wrapper div:first-child{
         order: 1;
         visibility: hidden;
+    
+       
     }
 
     .header_wrapper section:last-child{
         order: 3;
         visibility: visible;
+        padding: 1rem;
     }
 
     .title{
         font-family: RomanceLogic;
         font-size: 4rem;
         order: 2;
+
     }
     
 }

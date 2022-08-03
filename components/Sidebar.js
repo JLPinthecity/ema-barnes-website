@@ -13,15 +13,15 @@ const Sidebar = ({ show, toggle }) => {
           <CloseIcon onClick={toggle} />
         </div>
         <Link href="/" className={styles.links}>
-          <a>Home</a>
+          <a onClick={toggle}>Home</a>
         </Link>
 
         <Link href="/about" className={styles.links}>
-          <a>About</a>
+          <a onClick={toggle}>About</a>
         </Link>
 
         <Link href="/contact" className={styles.links}>
-          <a>Request a Quote</a>
+          <a onClick={toggle}>Request a Quote</a>
         </Link>
       </div>
     </div>
