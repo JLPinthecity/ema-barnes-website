@@ -1,5 +1,6 @@
 .header_container{
     width: 100%;
+    padding: 1rem;
 }
 
 .header_wrapper{
@@ -7,7 +8,14 @@
     flex-direction: row; 
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    width: 100%;
+} 
+
+
+@media only screen and (min-width: 500px)  {
+    .header_wrapper{
+        font-size: 3rem;
+    }
 } 
 
 @media only screen and (min-width: 900px)  {
@@ -20,12 +28,13 @@
 
 .title{
     font-family: RomanceLogic;
-    font-size: 3.5rem;
+    font-size: 2rem;
 } 
 
 /* BURGER */
  .header_wrapper section:first-child{
     order: 2;
+  
 } 
 
 /* CONTACT BUTTON */

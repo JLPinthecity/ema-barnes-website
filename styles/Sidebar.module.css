@@ -17,26 +17,26 @@
 
 .wrapper{
     font-family: RomanceLogic;
-    font-size: 1.5rem;
+    font-size: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100%;
     color:  rgb(0, 100, 52);
     background-color: rgb(253, 249, 237);
+    padding-top: 2rem;
 }
 
 .closeContainer{
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    padding-bottom: 4rem;
+    padding-bottom: 5rem;
 }
 
 .openSidebar svg{
     font-size: 3rem;
     cursor: pointer;
-    padding: 1rem;
 }
 
 .openSidebar a{
