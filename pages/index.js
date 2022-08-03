@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import lake from "../public/lake.jpg";
 
 const Home = () => {
+  // console.log(toggle);
   const easing = [0.6, -0.05, 0.01, 0.99];
 
   const fadeIn = {

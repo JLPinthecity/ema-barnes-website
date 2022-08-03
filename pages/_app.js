@@ -6,14 +6,12 @@ import React, { useState } from "react";
 
 export default function App({ Component, pageProps }) {
   // close = false, open = true
-  const [showSidebar, setShowSidebar] = useState(false);
 
-  const toggleSidebar = () => setShowSidebar(!showSidebar);
-
+  // <Layout toggle={toggleSidebar} showStatus={showSidebar}>
   return (
     <Layout>
       <AnimatePresence exitBeforeEnter>
-        <Component {...pageProps} toggle={toggleSidebar} />
+        <Component {...pageProps} />
       </AnimatePresence>
     </Layout>
   );

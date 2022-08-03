@@ -2,12 +2,13 @@ import Link from "next/link";
 import styles from "../styles/Header.module.css";
 import Burger from "../components/Burger";
 
-const Header = (props) => {
+const Header = ({ toggle }) => {
+  // console.log("FROM HEADER", toggle);
   return (
     <div className={styles.header_container}>
       <div className={styles.header_wrapper}>
         <section>
-          <Burger className={styles.icon} />
+          <Burger className={styles.icon} toggle={toggle} />
         </section>
         <section className={styles.title}>
           <Link href="/">

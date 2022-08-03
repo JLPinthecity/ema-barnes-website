@@ -1,0 +1,9 @@
+.openSidebar {
+ color: blue;
+ border: 1px solid blue;
+}
+
+.hideSidebar {
+    color: red;
+    border: 1px solid red;
+}
