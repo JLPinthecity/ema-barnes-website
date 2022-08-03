@@ -2,7 +2,7 @@ import Link from "next/link";
 import styles from "../styles/Header.module.css";
 import Burger from "../components/Burger";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <div className={styles.header_container}>
       <div className={styles.header_wrapper}>
