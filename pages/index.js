@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import test from "../public/test";
 import { motion } from "framer-motion";
+import lake from "../public/lake.jpg";
 
 const Home = () => {
   const easing = [0.6, -0.05, 0.01, 0.99];
@@ -33,7 +33,7 @@ const Home = () => {
           transition={{ ease: easing, duration: 0.5 }}
         >
           <Image
-            src={test}
+            src={lake}
             alt="Picture of ferns in front of fog"
             layout="intrinsic"
           />
