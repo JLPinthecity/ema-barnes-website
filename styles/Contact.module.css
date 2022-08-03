@@ -10,6 +10,11 @@
     padding: 1rem;
 }
 
+
+.container label{
+    float: left;
+    width: 20rem;
+}
 .container h1{
     color:  rgb(0, 100, 52);    
     font-size: 2.5rem;

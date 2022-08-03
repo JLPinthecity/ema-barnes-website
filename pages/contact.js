@@ -53,11 +53,8 @@ const Contact = () => {
 
         <div className={styles.field}>
           <label htmlFor="services">
-            Services requested
-            <br></br>(Editorial Assessment; <br></br>
-            Developmental Editing;<br></br>
-            Copyediting; <br></br>
-            Submission Package):
+            Services requested (Editorial Assessment; Developmental Editing;
+            Copyediting; Submission Package):
           </label>
           <br></br>
           <input type="text" name="services" />
@@ -91,8 +88,8 @@ const Contact = () => {
 
         <div className={styles.field}>
           <label htmlFor="excerpt">
-            Please copy and paste your first 10 pages or 3,000 words <br></br>
-            (don&apos;t worry about formatting!):
+            Please copy and paste your first 10 pages or 3,000 words (don&apos;t
+            worry about formatting!):
           </label>
           <br></br>
           <textarea type="text" name="excerpt" />
