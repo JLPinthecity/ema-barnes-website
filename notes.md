@@ -5,7 +5,6 @@ font-family: 'Quicksand', sans-serif;
 font-family: 'Rock Salt', cursive;
 font-family: 'Ubuntu Condensed', sans-serif;
 
-Roxale
 Aloevery
 GirlasFree
 Roxale
