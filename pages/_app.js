@@ -11,9 +11,9 @@ export default function App({ Component, pageProps }) {
   const toggleSidebar = () => setShowSidebar(!showSidebar);
 
   return (
-    <Layout toggleSidebar={toggleSidebar}>
+    <Layout>
       <AnimatePresence exitBeforeEnter>
-        <Component {...pageProps} />
+        <Component {...pageProps} toggle={toggleSidebar} />
       </AnimatePresence>
     </Layout>
   );
