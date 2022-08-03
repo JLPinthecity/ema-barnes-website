@@ -44,9 +44,9 @@
 .right{
     display: flex;
     flex-direction: column; 
-    justify-content: center;
-    align-items: center;
-    padding-top: 1rem;
+     justify-content:center;
+     align-items: center;  
+     padding-top:1rem;
     padding-bottom:1rem;
 }
 
@@ -59,7 +59,7 @@
 
 /* INNER BOXES - LEFT */
 .right > *  {
-    padding: .5rem;
+    /* padding: .5rem; */
 }
 
 .footer_title{
@@ -88,6 +88,7 @@
 .copyright{
     text-align: center;
     font-size: .8rem;
+    padding-top: 1rem;
 }
 
 
