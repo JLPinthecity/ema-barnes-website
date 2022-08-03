@@ -46,12 +46,6 @@ const Contact = () => {
         </div>
 
         <div className={styles.field}>
-          <label htmlFor="title">Working title</label>
-          <br></br>
-          <input type="text" name="title" />
-        </div>
-
-        <div className={styles.field}>
           <label htmlFor="services">
             Services requested (Editorial Assessment; Developmental Editing;
             Copyediting; Submission Package):
