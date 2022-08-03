@@ -21,7 +21,7 @@ const Header = (props) => {
             className={styles.get_in_touch}
           >
             <a>
-              <button className="contact_button">Contact</button>
+              <button className="contact_button">Contact </button>
             </a>
           </Link>
         </section>
