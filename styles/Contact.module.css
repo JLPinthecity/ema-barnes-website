@@ -58,19 +58,18 @@
 
 @media only screen and (min-width: 900px)  {
     .container input {
-        width: 25rem;
+        width: 35rem;
     }
 
     .container textarea{
         resize: both;
         height: 10rem;
-        width: 25rem;
+        width: 35rem;
     }
     
 }
 
-
-
-.container button{
-    text-align: center;
+.container .buttonfield{
+    text-align: center; 
+    width: 100%;
 }

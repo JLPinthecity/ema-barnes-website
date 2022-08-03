@@ -89,7 +89,9 @@ const Contact = () => {
           <textarea type="text" name="excerpt" />
         </div>
         <br></br>
-        <button>Submit</button>
+        <div className={styles.buttonfield}>
+          <button>Submit</button>
+        </div>
       </form>
     </motion.div>
   );
