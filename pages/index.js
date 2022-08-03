@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import ferns from "../public/ferns.jpg";
+import test from "../public/test";
 import { motion } from "framer-motion";
 
 const Home = () => {
@@ -33,7 +33,7 @@ const Home = () => {
           transition={{ ease: easing, duration: 0.5 }}
         >
           <Image
-            src={ferns}
+            src={test}
             alt="Picture of ferns in front of fog"
             layout="intrinsic"
           />
